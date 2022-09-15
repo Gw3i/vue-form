@@ -1,6 +1,13 @@
+<script setup>
+import { ref } from "vue";
+
+const data = ref([]);
+const email = ref("");
+
+</script>
+
 <template>
-  <div class="d-flex flex-column justify-content-center p-20">
-    <h1 class="mt-10 mb-10 text-center h2">Test Form</h1>
+  <div class="p-5 d-flex flex-column justify-content-center">
     <form>
       <div class="mb-3">
         <label for="email" class="form-label">Email address</label>
